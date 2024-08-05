@@ -5,12 +5,6 @@
 
 <p align="center">A very dark and vibrant Monokai based theme.</p>
 
-<p align="center">
-    <img alt="Visual Studio Marketplace Rating" src="https://img.shields.io/visual-studio-marketplace/r/s3gf4ult.monokai-vibrant?color=%231dd1e5&style=for-the-badge">
-    <img alt="Visual Studio Marketplace Installs" src="https://img.shields.io/visual-studio-marketplace/i/s3gf4ult.monokai-vibrant?color=%23ff3f4e&style=for-the-badge">
-    <img alt="Visual Studio Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/s3gf4ult.monokai-vibrant?color=%23ff9700&style=for-the-badge">
-</p>
-
 ![Monokai Vibrant JavaScript Example](https://f000.backblazeb2.com/file/app-media/monokai-vibrant.jpg)
 
 * 🌙 Super dark editor color scheme
@@ -24,30 +18,12 @@
 3. Click the **Install** button
 4. Go to Preferences ‣ Color Theme ‣ **Monokai Vibrant**
 
-## Disable Italics
+Go there  and paste this 
 
-If you are not using a font that does not support italics, you can add this to your `settings.json` to disabled them.
-
-```json
-"editor.tokenColorCustomizations": {
-  "textMateRules": [
-    {
-      "name": "Monokai Vibrant - No Italics",
-      "scope": [
-        "comment",
-        "string.comment",
-        "variable.language",
-        "keyword",
-        "storage",
-        "variable.parameter"
-      ],
-      "settings": {
-        "fontStyle": ""
-      }
-    }
-  ]
-}
 ```
+C:\Users\Administrator\.vscode\extensions
+```
+
 
 ## Extras
 
